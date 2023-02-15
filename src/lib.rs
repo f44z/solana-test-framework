@@ -5,6 +5,7 @@ pub mod util;
 pub use extensions::*;
 pub use solana_program_test::tokio;
 pub use solana_program_test::*;
+pub use solana_test_validator::*;
 
 #[macro_export]
 macro_rules! processor {
